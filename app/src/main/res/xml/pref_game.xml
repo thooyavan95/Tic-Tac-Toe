@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference android:title="@string/set_marker_colour"
+        android:defaultValue="@string/pref_color_value_red"
+        android:entries="@array/pref_colour_label"
+        android:entryValues="@array/pref_colour_values"
+        android:key="@string/pref_colour_key"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <ListPreference
+        android:title="@string/pref_set_game_point"
+        android:defaultValue="3"
+        android:entries="@array/pref_game_label"
+        android:entryValues="@array/pref_game_values"
+        android:key="@string/pref_game_key"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_colour_label">
+        <item>@string/pref_color_label_red</item>
+        <item>@string/pref_color_label_blue</item>
+        <item>@string/pref_color_label_green</item>
+    </array>
+
+    <array name="pref_colour_values">
+        <item>@string/pref_color_value_red</item>
+        <item>@string/pref_color_value_blue</item>
+        <item>@string/pref_color_value_green</item>
+    </array>
+
+    <array name="pref_game_label">
+        <item>@string/pref_game_label_three_points</item>
+        <item>@string/pref_game_label_five_points</item>
+    </array>
+
+    <array name="pref_game_values">
+        <item>"3"</item>
+        <item>"5"</item>
+    </array>
+
+</resources>
